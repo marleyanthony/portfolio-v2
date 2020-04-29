@@ -1,0 +1,56 @@
+/* INDEX */
+/* Info Section */
+#sticky-sidebar .info-section {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+#sticky-sidebar .info-section .profile-img {
+  height: 250px;
+}
+
+#sticky-sidebar .info-section .header-content h1 {
+  font-size: 2.5rem;
+}
+
+#sticky-sidebar .info-section .secondary-text {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+/* Sticky Sidebar */
+#sticky-sidebar {
+  position: relative;
+  width: 100%;
+  height: 60vh;
+}
+
+#content {
+  position: relative;
+  margin-top: 4rem;
+}
+
+#content #photography,
+#content #development,
+#content #mobile-design,
+#content #weddings {
+  max-width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+/* CONTACT */
+#contact-form {
+  width: 60%;
+}
+
+/* Landscape */
+@media (max-height: 400px) {
+
+  #sticky-sidebar .header-content,
+  .secondary-text,
+  .social-link,
+  .btn {
+    display: none;
+  }
+}

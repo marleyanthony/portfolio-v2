@@ -1,0 +1,230 @@
+/* Variables */
+:root {
+  --photography-color: #f47c7c;
+  --development-color: #ffbb00;
+  --mobile-design-color: #70a1d7;
+  --weddings-color: #ea6227;
+}
+
+/* Reset */
+* {
+  box-sizing: border-box;
+  border: 0;
+  margin: 0;
+}
+
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap');
+
+/* General */
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+/* INDEX */
+/* Sticky sidebar */
+#sticky-sidebar {
+  width: 40%;
+  height: 100vh;
+  position: fixed;
+}
+
+/* Info Section */
+#sticky-sidebar .info-section {
+  max-width: 50%;
+  margin: 10rem auto;
+}
+
+#sticky-sidebar .info-section .profile-img {
+  height: 200px;
+  border-radius: 50%;
+}
+
+#sticky-sidebar .info-section .primary-text-first {
+  font-size: 1.5rem;
+  margin-top: 1.2rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+#sticky-sidebar .info-section .primary-text-second {
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-weight: 300;
+
+}
+
+#sticky-sidebar .info-section .secondary-text {
+  font-size: 1rem;
+  text-align: left;
+  margin-bottom: 1.5rem;
+  font-weight: 300;
+}
+
+/* Info Section Social Links */
+#sticky-sidebar .info-section .social-link {
+  margin-right: 2rem;
+}
+
+#sticky-sidebar .info-section .social-link:hover {
+  cursor: pointer;
+}
+
+/* Info Section Button */
+.btn {
+  display: inline-block;
+  margin: 1.5rem 0;
+  border: 1px solid black;
+  border-radius: 50px;
+  padding: 1rem 3rem;
+  background-color: #fff;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 5px;
+}
+
+.btn:hover {
+  background-color: black;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* Scrolling Content */
+/* Page Number */
+#content #photography p,
+#content #development p,
+#content #mobile-design p,
+#content #weddings p {
+  padding: 2rem;
+  color: #fff;
+  font-weight: 100;
+  position: absolute;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+}
+
+#content #photography p:hover,
+#content #development p:hover,
+#content #mobile-design p:hover,
+#content #weddings p:hover {
+  cursor: pointer;
+}
+
+
+#content #photography {
+  max-width: 60%;
+  background: var(--photography-color);
+  margin-left: 40%;
+  height: 90vh;
+  position: relative;
+}
+
+#content #development {
+  max-width: 60%;
+  margin-left: 40%;
+  background-color: var(--development-color);
+}
+
+#content #mobile-design {
+  max-width: 60%;
+  background-color: var(--mobile-design-color);
+  margin-left: 40%;
+}
+
+#content #weddings {
+  max-width: 60%;
+  margin-left: 40%;
+  background-color: var(--weddings-color);
+}
+
+/* Scrolling Content Images */
+#content #photography img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin: auto auto;
+}
+
+#content #development img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin: auto auto;
+  padding: 5rem;
+}
+
+#content #mobile-design img {
+  max-width: 100%;
+  max-height: 100%;
+  width: 400px;
+  display: block;
+  margin: auto auto;
+  padding: 5rem;
+}
+
+#content #weddings img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+  margin: auto auto;
+}
+
+/* Vibrate Animation */
+.vibrate:hover,
+.vibrate:focus {
+  -webkit-animation: vibrate;
+  -webkit-animation-duration: 0.8s;
+  -webkit-transform-origin: 50% 50%;
+  -webkit-animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+}
+
+@-webkit-keyframes vibrate {
+  0% {
+    -webkit-transform: translate(2px, 1px) rotate(0deg);
+  }
+
+  10% {
+    -webkit-transform: translate(-1px, -2px) rotate(-1deg);
+  }
+
+  20% {
+    -webkit-transform: translate(-3px, 0px) rotate(1deg);
+  }
+
+  30% {
+    -webkit-transform: translate(0px, 2px) rotate(0deg);
+  }
+
+  40% {
+    -webkit-transform: translate(1px, -1px) rotate(1deg);
+  }
+
+  50% {
+    -webkit-transform: translate(-1px, 2px) rotate(-1deg);
+  }
+
+  60% {
+    -webkit-transform: translate(-3px, 1px) rotate(0deg);
+  }
+
+  70% {
+    -webkit-transform: translate(2px, 1px) rotate(-1deg);
+  }
+
+  80% {
+    -webkit-transform: translate(-1px, -1px) rotate(1deg);
+  }
+
+  90% {
+    -webkit-transform: translate(2px, 2px) rotate(0deg);
+  }
+
+  0% {
+    -webkit-transform: translate(1px, -2px) rotate(-1deg);
+  }
+}
