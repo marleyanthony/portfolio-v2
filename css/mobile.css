@@ -1,0 +1,175 @@
+/* INDEX */
+/* Sticky Sidebar */
+#sticky-sidebar {
+  position: relative;
+  width: 100%;
+  height: 60vh;
+}
+
+#content {
+  position: relative;
+  width: 100%;
+}
+
+#sticky-sidebar .info-section {
+  margin-top: 5rem;
+}
+
+#sticky-sidebar .info-section .profile-img {
+  height: 10rem;
+}
+
+#sticky-sidebar .info-section .header-content h1 {
+  font-size: 1.5rem;
+}
+
+#sticky-sidebar .info-section .primary-text-first {
+  font-size: 1rem;
+  margin-top: 1.2rem;
+  font-weight: 300;
+}
+
+#sticky-sidebar .info-section .primary-text-second {
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  font-weight: 300;
+}
+
+#sticky-sidebar .info-section .secondary-text {
+  font-size: 0.75rem;
+  text-align: left;
+  margin-bottom: 1.5rem;
+  font-weight: 300;
+}
+
+/* Sticky Sidebar Button */
+.btn {
+  margin: 1.5rem 0;
+  padding: 0.5rem 1.5rem;
+  font-size: 0.75rem;
+  letter-spacing: 5px;
+}
+
+/* Sticky Sidebar Social Links */
+#sticky-sidebar .info-section .social-link {
+  margin-right: 1rem;
+}
+
+/* Scrolling Content */
+#content #photography {
+  margin-left: 0;
+  max-width: 100%;
+  height: 50vh;
+}
+
+#content #development {
+  margin-left: 0;
+  max-width: 100%;
+}
+
+#content #mobile-design {
+  margin-left: 0;
+  max-width: 100%;
+}
+
+#content #weddings {
+  margin-left: 0;
+  max-width: 100%;
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+  #sticky-sidebar .info-section .profile-img {
+    height: 5rem;
+  }
+
+  #sticky-sidebar .info-section .header-content h1 {
+    font-size: 0.75rem;
+    font-weight: bold;
+  }
+
+  #sticky-sidebar .info-section .social-link {
+    margin-right: 0.5rem;
+  }
+
+  #sticky-sidebar .info-section {
+    margin-top: 2rem;
+  }
+
+  .btn {
+    display: block;
+    margin: 1.5rem 0;
+    padding: 1rem 1rem 1.8rem 2.8rem;
+    font-size: 0.5rem;
+    letter-spacing: 2px;
+  }
+
+  #sticky-sidebar .info-section a:last-child {
+    height: 40px;
+    width: 150px;
+  }
+
+  #content #photography {
+    margin-top: 2rem;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 374px) {
+  #sticky-sidebar .info-section .profile-img {
+    height: 5rem;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 411px) {
+  #sticky-sidebar .info-section .profile-img {
+    height: 5rem;
+  }
+}
+
+/* CONTACT */
+/* Contact Form */
+#contact-form {
+  padding: 0.5rem;
+  width: 90%;
+}
+
+form p {
+  display: none;
+}
+
+form h1 {
+  font-size: 1rem;
+  padding-bottom: 1rem;
+}
+
+.form-control {
+  padding: 0.5rem;
+  position: relative;
+}
+
+.form-control label {
+  display: none;
+}
+
+.form-control input {
+  width: 100%;
+  padding: 0.5rem;
+}
+
+form button {
+  font-size: 0.75rem;
+  padding: 0.75rem;
+}
+
+/* ABOUT */
+#about-me-container {
+  width: 100%;
+}
+
+#about-me-container h1 {
+  font-size: 1.7rem;
+}
+
+#about-me-container .about-me-p {
+  width: 100%;
+  padding: 0 2rem 2rem;
+}
